@@ -1,0 +1,263 @@
+@charset "utf-8";
+body {
+    background-color: #705B35;
+    font-size: .75em;
+    font-family: Verdana, Helvetica, Sans-Serif;
+    margin: 0;
+    padding: 0;
+    color: #696969;
+    background-image:url(/assets/images/site-images/header-bg.jpg);
+	background-repeat:repeat-x;
+}
+
+#wrapper {
+    background-color:White;
+    /* background-image:url(/Content/images/site-images/content-bg.png);
+	background-repeat:repeat-y; */
+}
+
+#header 
+{
+    height:90px;
+    color:White;
+    background-image:url(/assets/images/site-images/header-bg.jpg);
+	background-repeat:repeat-x;
+}
+
+#comments {
+	margin-left:10px;
+}
+
+#video {
+	margin-left:10px;
+}
+
+#specials {
+	margin-left:10px;
+	border:dashed 2px black;
+}
+
+.logo {
+	margin-left:10px;
+	float:left;
+	
+}
+
+#contentwrap {
+    background-image: url(/assets/images/content-bg.jpg);
+    background-repeat: repeat-y;
+    background-color: #faf0d5;
+}
+
+#sidebar 
+{
+    border-left:3px solid thin #c7b07b;
+}
+
+#footer 
+{
+    height:55px;
+    color:White;
+    background-image:url(/assets/images/site-images/footer-bg.jpg);
+	background-repeat:repeat-x;
+	clear:both;
+}
+
+#navcontainer 
+{
+    background-color:#E8D9AC;
+    height:32px;
+	border-bottom: #c7b07b solid double;
+    }
+
+
+.ui-tabs-hide {
+display:none;
+}
+
+#header h1
+{
+    color:White;
+    margin-top:30px;
+}
+
+h1, h2 
+{
+	font-family: 'OFL Sorts Mill Goudy TT', Verdana, Helvetica;
+    margin-top:30px;
+}
+
+#header h2 
+{
+    color:White;
+}
+
+h1, h2, h3, form, p, table {
+    margin-left:10px;
+}
+
+
+form, p {
+	margin-left:10px;
+	margin-right:10px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-style:normal;
+	color:#000;
+}
+
+.row {
+	margin-left:10px;
+}
+
+.subtext {
+	font-size:smaller;
+	font-style:italic;
+}
+
+.login {
+	float:right;
+	color:#FFF;
+}
+
+.login a {
+	color:#FFF;
+}
+
+.fileupload a {
+	background:url(/assets/images/icons/load_upload.png) no-repeat scroll left center transparent;
+	line-height:64px;
+	padding: 15px 0 15px 64px;
+	margin-left:10px;
+}
+
+.profile a {
+	background:url(/assets/images/icons/user.png) no-repeat scroll left center transparent;
+	line-height:64px;
+	padding: 15px 0 15px 64px;
+	margin-left:10px;
+}
+
+.specials a {
+	background:url(/assets/images/icons/shoppingcart.png) no-repeat scroll left center transparent;
+	line-height:64px;
+	padding: 15px 0 15px 64px;
+	margin-left:10px;
+}
+
+.video a {
+	background:url(/assets/images/icons/disc.png) no-repeat scroll left center transparent;
+	line-height:64px;
+	padding: 15px 0 15px 64px;
+	margin-left:10px;
+}
+
+.facebook a {
+	background:url(/assets/images/icons/facebook_64.png) no-repeat scroll left center transparent;
+	line-height:64px;
+	padding: 25px 0 25px 70px;
+	margin-left:10px;
+}
+
+.footerlink {
+	color:#FCC;
+}
+
+
+.floatleft {
+float:left;
+margin-right:.5em;
+margin-left:.25em;
+margin-bottom:.5em;
+}
+
+.floatright {
+float:right;
+margin-left:.5em;
+margin-right:.25em;
+margin-bottom:.5em;
+}
+
+.floatcenter {
+text-align:center;
+clear:both;
+}
+
+.imagewrap {
+	float:right;
+margin-top:.5em;
+margin-left:.5em;
+margin-right:.25em;
+margin-bottom:.5em;
+background-color:#CCC;
+text-align:center;
+}
+
+.imagewrap img {
+	margin:5 5 5 5;
+}
+
+/* tables */
+table.tablesorter {
+	font-family:arial;
+	background-color: #CDCDCD;
+	margin:10px 0pt 15px 10px;
+	font-size: 8pt;
+	width: 100%;
+	text-align: left;
+}
+table.tablesorter thead tr th, table.tablesorter tfoot tr th {
+	background-color: #570026;
+	border: 1px solid #FFF;
+	font-size: 8pt;
+	padding: 4px;
+	color:#FFF;
+}
+table.tablesorter thead tr .header {
+	background-image: url(/assets/images/blue/bg.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+table.tablesorter tbody td {
+	color: #3D3D3D;
+	padding: 4px;
+	background-color: #E8D9AC;
+	vertical-align: top;
+}
+table.tablesorter tbody tr.odd td {
+	background-color:#F0F0F6;
+}
+table.tablesorter thead tr .headerSortUp {
+	background-image: url(/assets/images/blue/asc.gif);
+}
+table.tablesorter thead tr .headerSortDown {
+	background-image: url(/assets/images/blue/desc.gif);
+}
+table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
+background-color: #8dbdd8;
+}
+
+#gallery {
+	margin-left:10px;
+	margin-top:10px;
+}
+
+#gallery, #upload {
+			border: 1px solid #ccc; width: 570px; padding: 10px;
+		}
+		#blank_gallery {
+			font-family: Arial; font-size: 18px; font-weight: bold;
+			text-align: center;
+		}
+		.thumb {
+			float: left; width: 150px; height: 100px; padding: 10px; margin: 10px; background-color: #ddd;
+		}
+		.thumb:hover {
+			outline: 1px solid #999;
+		}
+		img {
+			border: 0;
+		}
+		#gallery:after {
+			content: "."; visibility: hidden; display: block; clear: both; height: 0; font-size: 0;
+		}

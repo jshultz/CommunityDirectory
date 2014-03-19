@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+
+ul#filter { float: left; font-size: 14px; list-style: none; margin-left: 0; }
+ul#filter li { 
+	border-right: 1px solid #dedede;
+	float: left;
+	line-height: 16px;
+	margin-right: 10px;
+	padding-right: 10px;
+}
+ul#filter li:last-child { border-right: none; margin-right: 0; padding-right: 0; }
+ul#filter a { color: #03C; text-decoration: none; }
+ul#filter li.current a, ul#filter a:hover { text-decoration: underline; }
+ul#filter li.current a { color: #F303; font-weight: bold; }
+
+ul#portfolio {
+	float: left;
+	list-style: none;
+	margin-left: 0;
+}
+ul#portfolio li { 
+	border: 1px solid #dedede; 
+	float: left; 
+	margin: 0 10px 10px 0; 
+	padding: 5px;
+	width: 202px;
+}
+ul#portfolio a { display: block; width: 100%; }
+ul#portfolio a:hover { text-decoration: none; }
+ul#portfolio img { border: 1px solid #dedede; display: block; padding-bottom: 5px; }
